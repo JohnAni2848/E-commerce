@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../Bootstrap/CSS/coffeshop.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light" id="navbar">
+        <div class="container-fluid">
+            <img src="../Bootstrap/Image/cafe-logo-restaurant.jpg" alt="" class="navbar-brand">
+            <h1>Coffee<span> TIME..,</span></h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home"><i
+                                class="bi bi-house-add-fill"></i>Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#About"><i
+                                class="bi bi-file-earmark-person-fill"></i>About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Product">
+                            <i class="bi bi-kanban-fill"></i>Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Contact"><i
+                                class="bi bi-person-lines-fill"></i>Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="cart-box">
+                <div class="cart-icon">
+                    <i class="bi bi-cart-check-fill non-empty"></i>
+                </div>
+                <div class="whole-cart-window hide">
+                    <h2>Shoping bag</h2>
+                    <div class="cart-wrapper">
+                        <div class="cart-item">
+                            <img src="./Image/sk1 (1).jpg">
+                            <div class="details">
+                                <h5>Item Name</h5>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <span class="quantity">Quentity: 1</span>
+                                <span class="price">Price: $10.55</span>
+                            </div>
+                            <div class="cancel"><i class="bi bi-x-square-fill"></i></div>
+                        </div>
+                        <!-- item2 -->
+                        <div class="cart-item">
+                            <img src="./Image/sk1 (2).jpg">
+                            <div class="details">
+                                <h5>Item Name</h5>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                                <span class="quantity">Quentity: 1</span>
+                                <span class="price">Price: $10.55</span>
+                            </div>
+                            <div class="cancel"><i class="bi bi-x-square-fill"></i></div>
+                        </div>
+                    </div>
+                    <div class="suptotal">Suptotal: $0.00</div>
+                    <div class="checkout">Checkout</div>
+                    <div class="view-cart">View Cart</div>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <!--Home-->
+    <section id="home">
+        <h1>Coffee Cherries</h1>
+        <div class="box">
+        </div>
+    </section>
+    <!--About-->
+    <section id="About">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <img src="../Bootstrap/Image/About1.jpg" alt="" class="img-fluid">
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <h1>
+                        <hr> About Us
+                        <hr>
+                    </h1> <br>
+                    <p> Taste and See Coffee Shop and Gallery offers a unique coffee house environment unlike any other
+                        in Macon. We are not only a place to drop in and get your morning cup of coffee (although you
+                        are more than welcome to do that), we are a place where you can sit down and enjoy that
+                        tailor-made cup of coffee. If you need to work, we have a seating area created specifically for
+                        you. If you need to rest, we have a soft-seating area in front of a stone fire place that is
+                        perfect for your weary mind and body. We offer a delicious variety of coffee from Safehouse
+                        Coffee made by our professionally trained baristas. We have everything from classic coffee to
+                        our house made specialty beverages. All of our sauces & syrups are made in-house with all
+                        natural ingredients (no chemicals or preservatives) ensuring you the highest quality in taste &
+                        health. You can complete your coffee with one of our delicious sweet treats made by our very own
+                        baker. We look forward to serving you at Taste & See Coffee Shop and Gallery!..Café Coffee Day,
+                        a part of Coffee Day Global Limited, is India’s favourite hangout for coffee and conversations.
+                        Popularly known as CCD, we strive to provide the best experience to our guests. Our coffees are
+                        sourced from thousands of small coffee planters, who made us who we are today and we're glad to
+                        be a part of their lives. We opened our first cafe in 1996 at Brigade Road in Bangalore – the
+                        youth and the young at heart immediately took to the cafe, and it continues to be one of the
+                        most happening places in the city.
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--Product-->
+    <section id="Product" class="container-fluid">
+        <div class="container mt-5">
+            <h1 class="text-center my-1">
+                <hr> OUR PRODUCTS
+                <hr>
+            </h1>
+            <h2 class="text-center my-3">Coffee Drinks</h2>
+            <div class="row">
+                <div data-id="1" class="col-lg-4 col-md-4 col-12">
+                    <div class="container mt-1">
+                        <div class="card" style="width:20em">
+                            <div class="inner">
+                                <img class="card-img-top" src="../Bootstrap/Image/pr1.jpg" style="width:100%">
+                            </div>
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Cappuccino</h4>
+                                <p>
+                                    <span> Price: $10.55</span><br><br>
+                                    <span class="btn btn-danger">Add to card</span>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div data-id="2" class="col-lg-4 col-md-4 col-12">
+                    <div class="container mt-1">
+                        <div class="card" style="width:20em">
+                            <div class="inner">
+                                <img class="card-img-top" src="../Bootstrap/Image/pr2.jpg" style="width:100%">
+                            </div>
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Cold Brew</h4>
+                                <p>
+                                    <span> Price: $19.55</span><br><br>
+                                    <span class="btn btn-danger">Add to card</span>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div data-id="3" class="col-lg-4 col-md-4 col-12">
+                    <div class="container mt-1">
+                        <div class="card" style="width:20em">
+                            <div class="inner">
+                                <img class="card-img-top" src="../Bootstrap/Image/p4.jpg" style="width:100%">
+                            </div>
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Espresso</h4>
+                                <p>
+                                    <span> Price: $16.55</span><br><br>
+                                    <span class="btn btn-danger">Add to card</span>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <h2 class="text-center my-3">Snacks</h2>
+            <div class="row">
+                <div data-id="4" class="col-lg-4 col-md-4 col-12">
+                    <div class="container mt-1">
+                        <div class="card" style="width:20em">
+                            <div class="inner">
+                                <img class="card-img-top" src="../Bootstrap/Image/Snacks (1).jpg" style="width:100%">
+                            </div>
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Pups</h4>
+                                <p>
+                                    <span> Price: $13.55</span><br><br>
+                                    <span class="btn btn-danger">Add to card</span>
+                                </p>                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-id="5" class="col-lg-4 col-md-4 col-12">
+                    <div class="container mt-1">
+                        <div class="card" style="width:20em">
+                            <div class="inner">
+                                <img class="card-img-top" src="../Bootstrap/Image/Snacks (2).jpg" style="width:100%">
+                            </div>
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Cakes</h4>
+                                <p>
+                                    <span> Price: $10.55</span><br><br>
+                                    <span class="btn btn-danger">Add to card</span>
+                                </p>                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div data-id="6" class="col-lg-4 col-md-4 col-12">
+                    <div class="container mt-1">
+                        <div class="card" style="width:20em">
+                            <div class="inner">
+                                <img class="card-img-top" src="../Bootstrap/Image/Snacks (3).jpg " style="width:100%">
+                            </div>
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Biscuits</h4>
+                                <p>
+                                    <span> Price: $15.50</span><br><br>
+                                    <span class="btn btn-danger">Add to card</span>
+                                </p>                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="text-center my-3">Coffee shake</h2>
+            <div class="row">
+                <div data-id="7" class="col-lg-4 col-md-4 col-12">
+                    <div class="container mt-1">
+                        <div class="card" style="width:20em">
+                            <div class="inner">
+                                <img class="card-img-top" src="../Bootstrap/Image/sk1 (1).jpg" style="width:100%">
+                            </div>
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Mexican Milkshakes</h4>
+                                <p>
+                                    <span> Price: $14.55</span><br><br>
+                                    <span class="btn btn-danger">Add to card</span>
+                                </p>                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-id="8" class="col-lg-4 col-md-4 col-12">
+                    <div class="container mt-1">
+                        <div class="card" style="width:20em">
+                            <div class="inner">
+                                <img class="card-img-top" src="../Bootstrap/Image/sk2.jpg" style="width:100%">
+                            </div>
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Frappuccino</h4>
+                                <p>
+                                    <span> Price: $20.55</span><br><br>
+                                    <span class="btn btn-danger">Add to card</span>
+                                </p>                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-id="9" class="col-lg-4 col-md-4 col-12">
+                    <div class="container mt-1">
+                        <div class="card" style="width:20em">
+                            <div class="inner">
+                                <img class="card-img-top" src="../Bootstrap/Image/sk1 (2).jpg" style="width:100%">
+                            </div>
+                            <div class="card-body text-center">
+                                <h4 class="card-title">Bourbon Milkshake</h4>
+                                <p>
+                                    <span> Price: $17.55</span><br><br>
+                                    <span class="btn btn-danger">Add to card</span>
+                                </p>                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Contact-->
+    <section id="Contact" class="mt-5">
+
+        <div class="container-fluid">
+            <h1>
+                <hr> Contact Us
+                <hr>
+            </h1>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="container mt-3">
+                        <div class="mb-3 mt-3">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="pwd">Password:</label>
+                            <input type="password" class="form-control" id="pwd" placeholder="Enter password"
+                                name="pswd">
+                        </div><br>
+                        <button type="submit" class="btn btn-danger" id=" ">Submit</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12" id="cont">
+                    <div class="container mt-3">
+                        <a href=""><i class="bi bi-telephone-plus"></i>+91 9361708481 </a><br>
+                        <a href=""><i class="bi bi-whatsapp"></i>+91 8531972848</a><br>
+                        <a href=""><i class="bi bi-envelope-at"></i>sstalinstalin20@gmail.com</a> <br>
+                        <a href=""><i class="bi bi-instagram"></i>comrate_john03</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <img src="../Bootstrap/Image/Cont1.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+
+    </section>
+    <footer class="">Copyrights @DaMSoRforever2023</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+    <script src="../Bootstrap/Javascript/coffeeshop.js"></script>
+
+</body>
+
+</html>

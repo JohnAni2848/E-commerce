@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600&family=Oswald:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.852), rgba(87, 74, 74, 0.7)), url(../Image/bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 0.5rem 0.5rem 1rem rgba(96, 92, 92, 0.5);
+    background-color: rgb(100, 0, 0);
+}
+
+.navbar .navbar-brand {
+    height: 3em;
+    width: 4em;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.container-fluid h1 {
+    color: rgb(233, 165, 165);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container-fluid h1 span {
+    color: rgb(255, 255, 255);
+    font-style:unset;
+    font-size: 0.6em;
+}
+
+#navbarSupportedContent {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#navbarSupportedContent li a {
+    padding: 0.4em 2em;
+    border-radius: 1em;
+    color: rgb(255, 255, 255);
+
+}
+
+#navbarSupportedContent a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 1em;
+}
+
+#navbarSupportedContent button {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1em;
+    height: 1em;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#Btn {
+    background-color: black;
+    width: 10em;
+}
+
+#Btn i {
+    width: 5em;
+    height: 3em;
+
+}
+
+
+.nav-item i {
+    padding-right: 0.5em;
+}
+
+.cart-box {
+    width: 18% !important;
+    position: absolute;
+    left: 80%;
+    top: 25%;
+    /* border: solid 0.1em rgb(255, 255, 255); */
+    color: rgb(0, 0, 0);
+    padding: 0.5em 1em;
+}
+.cart-box i{
+    color: rgb(255, 255, 255);
+    width: 2em;
+    height: 3em;
+}
+
+h2 {
+    font-size:x-large;
+    padding: 1em 1em;
+}
+
+.cart-wrapper {
+    overflow-y: auto;
+    max-height: 30em;
+}
+
+.suptotal{
+    text-align: right;
+    padding: 3%;
+}
+
+.checkout,
+.view-cart {
+    width: 95%;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(213, 80, 80);
+    font-size: large;
+    margin: 1em auto;
+    padding: 0.3em 0.3em;
+
+}
+
+.cart-icon {
+    text-align: right;
+}
+
+.view-cart {
+    background-color: transparent;
+    border: solid 0.1em rgb(80, 8, 8);
+}
+
+.cart-item {
+    display: grid;
+    grid-template-columns: 3fr 6fr 1fr;
+    padding: 0.3em 0.2em;
+    border-bottom:solid 0.05em rgb(66, 58, 58) ;
+}
+.cart-item img{
+    width: 100%;
+    height: 6em;
+}
+.cart-item, .details{
+    padding-left: 0.5em;
+
+}
+.cart-item h5{
+    text-align: left;
+}
+.cart-item .price{
+    display: block;
+    text-align: right;
+    margin-top: 25%;
+}
+
+.cancel{
+    text-align: right;
+}
+
+.cancel i{
+    color: brown;
+    position: absolute;
+    right: 1em;
+}
+.whole-cart-window{
+    border: solid rgb(255, 255, 255) 0.1em;
+    position: fixed;
+    top: 10vh;
+    right: 1em;
+    background-color: transparent;
+}
+.whole-cart-window, h5, .cart-wrapper{
+    background-color: rgb(255, 255, 255);
+}
+
+.hide{
+    display: none;
+}
+
+.non-empty::after{
+    content:'2';
+    font-size: 0.7em;
+    font-style: normal;
+    width: 1.5em;
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(231, 107, 107);
+    border-radius: 50%;
+    position: relative;
+   bottom:1em;
+   right: 0.3em;
+}
+
+/***Home***/
+#home {
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, 0.4)), url(../Image/BK1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#home h1 {
+    margin: auto;
+    color: rgb(255, 255, 255);
+    font-size: 7em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, .5);
+    display: flex;
+    position: absolute;
+    left: 4em;
+    top: 3.3em;
+
+}
+
+#home P {
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#About {
+    background: linear-gradient(rgba(116, 21, 21, 0.852), rgba(71, 2, 2, 0.7));
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    align-items: center;
+    height: 100%;
+}
+
+#About h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#Product {
+    margin: auto;
+    height: 100%;
+}
+
+#Product h1 {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Product .container {
+    border: 1em;
+}
+
+#Product .container img {
+    width: 13em;
+    height: 16em;
+}
+
+#Product h2 {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-family: Helvetica;
+    font-size: 2.5em;
+}
+
+#Product .container h4 {
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+.inner{
+    overflow: hidden;
+}
+
+.inner img{
+    transition: all 1.5s ease;
+}
+
+.inner:hover img{
+    transform: scale(1.5);
+}
+
+#Contact {
+    background-color: rgb(220, 204, 204);
+    color: rgb(255, 255, 255);
+    font-family: Helvetica;
+    padding: 7em 2em;
+    height: 40em;
+}
+
+#Contact img {
+    border-radius: 0em 5em 0em;
+    padding: 1em;
+}
+
+#Contact h1 {
+    font-family: Helvetica;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+}
+
+#Contact label {
+    font-family: Helvetica;
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+}
+
+#Contact button {
+    align-items: center;
+}
+
+#cont {
+    text-decoration: none;
+    align-items: center;
+    line-height: 4em;
+    font-family: Helvetica;
+}
+
+#cont a {
+    padding: 0em 0.2em;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+}
+
+#cont i {
+    padding: 0em 0.7em;
+    width: 4em;
+}
+
+.location{
+    padding: 3em;
+}
+footer {
+    width: 100%;
+    height: 3em;
+    background-color: rgb(52, 50, 50);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 0.7em 0em;
+}
